@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-const name ="sangram"
+const name = "sangram"
 
-func main(){
+func main() {
 
 	const pi = 3.14178
 
@@ -12,10 +12,9 @@ func main(){
 		age = 21
 
 		interest = "Boxing"
-
 	)
 
-	fmt.Printf("Hi!,I'm %v. I'm %v.\n",name,age)
-	fmt.Printf("I like %v\n",interest)
-	fmt.Printf("The value of Pi is %v \n",pi)
+	fmt.Printf("Hi!,I'm %v. I'm %v.\n", name, age)
+	fmt.Printf("I like %v\n", interest)
+	fmt.Printf("The value of Pi is %v \n", pi)
 }

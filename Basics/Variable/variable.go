@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
 	var name string
 
@@ -18,9 +18,9 @@ func main(){
 
 	greeting := "Namaste"
 
-	fmt.Printf("%v My Name is %v\n",greeting+",",name+".")
-	fmt.Printf("I'm %v years old\n",age)
-	fmt.Printf("The value of Pi is %v\n",pi)
-	fmt.Printf("The Product of 10 * 10 is %v \n",product)
+	fmt.Printf("%v My Name is %v\n", greeting+",", name+".")
+	fmt.Printf("I'm %v years old\n", age)
+	fmt.Printf("The value of Pi is %v\n", pi)
+	fmt.Printf("The Product of 10 * 10 is %v \n", product)
 
 }
